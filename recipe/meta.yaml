@@ -1,13 +1,13 @@
 {% set name = "pypulse" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyPulse-{{ version }}.tar.gz
-  sha256: 89cb362d2108215784f5b0df8e79311f7856f0da705ce4d77d4e884ca6c651b4
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4904d46557426625b374a9c87d96c31f0c25258c74696d944d2371ea30877b8b
 
 build:
   noarch: python
